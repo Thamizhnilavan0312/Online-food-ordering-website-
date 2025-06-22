@@ -1,0 +1,146 @@
+h1 {
+    font-family: "Young Serif", serif;
+  font-size: 50px;
+  margin: 20px;
+  padding: 20px;
+  background-color: black;
+  color: #e6f0fa;
+  display: inline-block;
+}
+
+header {
+  background-color: #000;
+  color: #e6f0fa;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: #e6f0fa;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.search-bar {
+  width: 70%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #e6f0fa;
+  border-radius: 5px;
+  background-color: #000;
+  color: #e6f0fa;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.menu-item {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(230, 240, 250, 0.2);
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+}
+
+.quantity-control {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.quantity-btn {
+  background-color: #e6f0fa;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.quantity {
+  width: 50px;
+  text-align: center;
+  margin: 0 5px;
+  padding: 5px;
+  border: 1px solid #e6f0fa;
+  border-radius: 5px;
+  background-color: #000;
+  color: #e6f0fa;
+}
+
+.add-to-cart-btn {
+  background-color: #3b82f6;
+  color: #e6f0fa;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.contact {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  color: #e6f0fa;
+}
+
+.contact form {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.contact input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #e6f0fa;
+  border-radius: 5px;
+  background-color: #000;
+  color: #e6f0fa;
+}
+
+.contact button {
+  background-color: #3b82f6;
+  color: #e6f0fa;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-btn {
+  background-color: #3b82f6;
+  color: #e6f0fa;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .menu-item {
+    width: 40%;
+  }
+  .search-bar {
+    width: 90%;
+  }
+}
